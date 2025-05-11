@@ -3,7 +3,8 @@ import { FaBars, FaCartShopping, FaHeart } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
 import Logo from '../../assets/mshologo.PNG'
 
-const Header = () => {
+const Header = () => {  
+  return (
 
 <!-- Meta Pixel Code -->
 <script>
@@ -22,8 +23,7 @@ fbq('track', 'PageView');
 src="https://www.facebook.com/tr?id=1188358332386311&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->
-  
-  return (
+    
     <div className="bg-white pt-3" id="navbar">
       <div className="">
         <div className="flex justify-between items-center py-2 mx-4">
