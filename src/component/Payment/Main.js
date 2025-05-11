@@ -12,7 +12,7 @@ import Whatsappicon from "../../assets/whatspp_pay.svg";
 import Data from '../../data/Main';
 
 const Payment = () => {
-    const upi = "Mswipe.1400032224000538@kotak"
+    const upi = "netc.34161fa820328aa2cac75ba0@mairtel"
     const [time, settime] = useState();
     const [qrcode, setqrcode] = useState(false);
     const [data, setdata] = useState(Data)
